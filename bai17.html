@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thuoc tinh box-sizing</title>
+        <meta charset="utf-8">
+        <style>
+            html, body {
+                margin: 0;
+            }
+
+            .box {
+                width: 100px;
+                height: 100px;
+                color: #fff;
+                background-color: violet;
+                padding: 16px;
+                border: 1px solid #333;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box">Đây là nội dung bài viết</div>
+        <p>Thông thường, khi chúng ta sử dụng thuộc tính width (height) để thiết lập chiều rộng (chiều cao)
+             cho một phần tử thì mặc định chiều rộng (chiều cao) đó chỉ là chiều rộng (chiều cao)
+             của phần nội dung content của phần tử mà thôi.<br/>
+            - Tuy nhiên, với việc sử dụng thuộc tính box-sizing thì chúng ta có thể tùy chỉnh
+             lại việc khi sử dụng thuộc tính width (height) để thiết lập chiều rộng (chiều cao)
+             thì chiều rộng (chiều cao) đó chỉ là của phần nội dung hay là của nguyên cả phần tử (bao gồm l
+             uôn phần đường viền & vùng đệm) </p>
+
+        <h2>Tầm quan trọng của thuộc tính box-sizing</h2>
+        <p>Là một thuộc tính rất quan trọng trong việc thiết kế giao diện cho trang web , nó 
+            giúp chúng ta "đơn giản hóa" việc xác định kích thước của phần tử khi xây dựng bố cục trang
+        </p>
+    </body>
+</html>

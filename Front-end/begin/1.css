@@ -1,0 +1,33 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.k1 {
+    display:flex;
+    margin-top:  20px;
+}
+
+.k2{
+    margin-left: 20px;
+}
+
+.h1 {
+    color:#cccccc;
+    
+}
+
+.p1{
+    color:#222222;
+    text-decoration-line: none;
+}
+
+.p1:hover{
+    cursor: pointer;
+    color:blue;
+}

@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.khoi1 {
+    width: 500px;
+    height: 199px;
+    border: double ;
+    margin-top: 30px;
+
+}
+
+.tieu-de {
+    margin: auto;
+    width: 50%;
+}
+
+.dong-1{ 
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+.dong-2 {
+    padding-top: 12px;
+    padding-left: 10px;
+
+}
+
+.lc-1 {
+    margin-left: 60px;
+    margin-top: 4px;
+}
+
+.btn-1 {
+    margin-top: 7px;
+    margin-left: 60px;
+    width: 45px;
+    border-width: thin;
+    background-color: rgba(179, 180, 180, 0.849);
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background-color: rgb(109, 236, 109);
+}
+
+.btn-2 {
+    border-width: thin;
+    background-color: rgba(179, 180, 180, 0.849);
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    background-color: rgb(109, 236, 109);
+}

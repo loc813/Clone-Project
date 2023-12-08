@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: auto;
+    height: 59px;
+    background-image: -webkit-linear-gradient(top, #fff, #cccccc);
+}
+
+.content{
+    color: #15746C;
+    margin:auto;
+    height: 50%;
+    padding: 13px;
+}
+
+.nav {
+    height: 33px;
+    width:auto;
+    background-color:#15746C ;
+    
+}
+
+.nav li {
+    padding: 9px;
+    display: inline-block;
+}
+
+.l1{
+    border-right: 1px solid #F1f1f1;
+}
+
+.l2 {
+    border-right: 1px solid #F1f1f1;
+}
+
+.l3 {
+    border-right: 1px solid #F1f1f1;
+}
+
+.l4 {
+    border-right: 1px solid #F1f1f1;
+}
+
+.khoi {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.khoi1 {
+    margin-top: 6px;
+    width: calc(33.33% - 50px); 
+    height: 283px;
+    padding: 20px; 
+    word-wrap: normal;
+}
+
+.khoi2 {
+    margin-top: 6px;
+    width: calc(33.33% - 50px); 
+    height: 283px;
+    padding: 20px;   
+    position: static;
+}
+
+.cot {
+    position: relative;
+    display:flex ;
+}
+
+.nd2 {
+    
+}
+
+.khoi3 {
+    margin-top: 6px;
+    width: calc(33.33% - 50px); 
+    height: 283px;
+    padding: 20px; 
+    background-color: #cccccc;
+    border-top: 2px solid #15746C; 
+    
+}
+
+
+.tieude {
+    font-size: large;
+    color: #15746C ;
+    margin-left: 30px ;
+}
+
+.cau-hoi {
+    padding: 9px;
+    font-size: 20px;
+}
+
+.container-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.lc {
+    display: flex;
+    flex-direction: column;
+}
+
+.lc1 {
+    float: inline-end;
+}
+
+.btn-form {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.btn-gui {
+    width: 50px;
+    height: 30px;
+}
+
+.btn-ket-qua {
+    width: 50px;
+    height: 30px;
+}
+
+
+.link1 {
+    cursor: pointer;
+}
+
+.link2 {
+    font-size: 19px;
+}
+
+.img1 {
+    width: 100%;
+    height: 240px;
+}
+
+
+.nd1 {
+    font-size: 13px;
+    color:#cccccc;
+    padding-top: 5px;
+}
+
+.nd2 {
+    display: inline-block;
+    line-height: 14px;
+}
+
+.img2 {
+    width: 150px;
+}
+
+.table {
+    width: 400px;
+    height: 250px;
+    background-color: #F1f1f1;
+    margin-top: 20px;
+}
+
+

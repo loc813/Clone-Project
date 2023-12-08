@@ -1,0 +1,814 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+.header-nav-1 {
+    height: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.header-nav-1 > ul {
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+
+
+
+.menu-area .column {
+    list-style: none;
+    padding: 10px;
+    display: block;
+}
+
+.header-nav-1 li {
+    padding-top: 15px;
+}
+
+.header-nav-1 .dropdown {
+    line-height: 50px;
+}
+
+.header-nav-1 ul > li > a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 5px;
+    position: relative;
+}
+
+.header-nav-1 ul.menu-area {
+    position: absolute;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+    width: 100vw; /* Drop-down menu rộng bằng chiều rộng của viewport */
+    top: -100%px; /* Hiển thị ngay dưới mục li */
+    left: -580px; /* Bắt đầu từ bên trái */
+    animation: slideDown 0.8s ease forwards;
+}
+
+.header-nav-1 .dropdown:hover > ul.menu-area {
+    max-height: 800px; /* Đặt giá trị max-height khi hover */
+}
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: 1000px;
+    }
+}
+
+.header-nav-1 ul.menu-area li {
+    transition: transform 0.3s ease; /* Thêm hiệu ứng di chuyển trong 0.3 giây với hiệu ứng dễ dàng */
+}
+
+.header-nav-1 ul.menu-area li:hover {
+    transform: translateY(3px); /* Di chuyển dropdown xuống dưới 5px khi hover */
+}
+
+
+.menu-area {
+    display: flex;
+    flex-direction: row;
+} 
+
+
+
+.header-nav-1 ul.menu-area li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav-1 ul.menu-area a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header-nav-1 ul > li:hover > ul.menu-area {
+    display: block;
+}
+
+.header-nav-1 ul.menu-area ul {
+    width: 100%;
+    margin-bottom: 0;
+    color: #333;
+}
+
+.header-nav-1 .ti-search {
+
+}
+
+
+
+.header-nav-2 {
+    height: 140px; 
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav-2 li {
+    display: inline-block;
+    margin: 25px 25px 0 25px;
+}
+
+.header-nav-2 li a {
+    text-decoration: none;
+    color:black;
+}
+
+.chapternav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Căn giữa theo chiều ngang */
+    padding-top: 3px; /* Khoảng cách top 3px */
+}
+
+.chapternav-link:hover  {
+    transform: translateX(-50px);
+}
+
+
+.chapternav-label {
+    font-size: 15px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: block;
+    margin: 0;
+}
+
+.chapternav-new {
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.008em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #bf4800;
+    display: block;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.chapternav-label, .chapternav-new {
+    margin-top: 4px;
+}
+
+
+.line-row {
+    height: 70px;
+    background-color: #f2f2f2;
+}
+
+.line-1 {
+    line-height: 70px;
+    text-align: center;
+}
+
+.line-1-a {
+    cursor: pointer;
+}
+
+.chapternav-link:hover {
+    color: blue;
+}
+
+.content-ip15 {
+    z-index: 1;
+}
+
+.text-on-image {
+    position: absolute;
+    top: 300px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    text-align: center;
+}
+
+.new-1 {
+    font-size: 19px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 12px;
+    padding: 3px 11px;
+    color: #f56300;
+}
+
+.logo-ip15 { 
+    width: 140px;
+    height: 20px;
+    background-size: 140px 20px;
+}
+  
+.titan {
+     margin-top: 15px;
+}
+
+.title {
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.button-buy  {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    min-width: 30px;
+    padding: 14px 30px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.button-buy:hover {
+    background-color: #ccc;
+    color:#0071e3;
+}
+
+.link-buy {
+    text-decoration: none;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.link-buy:hover {
+    text-decoration: underline;
+}
+
+.section-iphone-15 {
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.space-top {
+    height: 70px;
+}
+
+.title-ip15 {
+    text-align: center;
+    margin: auto;
+    width: 980px;
+}
+ .new-2 {
+    box-sizing: border-box;
+    white-space: nowrap;
+    display: block;
+    color: #bf4800;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 12px;
+    padding: 3px 11px;
+} 
+
+.iphone15 {
+    font-family:  SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.headline-15 {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 500;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.hightline {
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: .011em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.container {
+    height: 830px;
+}
+
+.logo-iphone-se {
+    width: 96px;
+    height: 22px;
+    position: relative;
+    left: 50%;
+    margin-left: -48px;
+    margin-top: 300px;
+}
+
+.sub-title {
+    text-align: center;
+    margin-top: 13px;
+    font-size: 45px;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn-buy {
+    padding: 14px 30px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+.btn-buy:hover {
+    background-color: #ccc;
+    color:#0071e3;
+}
+
+.title-hightline {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.ip {
+    font-family:  SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.083323232;
+
+}
+
+.button-buy-s {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 25px;
+    padding: 10px 18px;
+    background: #0071e3;
+    border-radius: 980px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-buy-s:hover {
+    background-color: #ccc;
+    color:#0071e3;
+}
+
+.subline {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.ip-cell {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.se-cell {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.reduce-column {
+    font-size: 18px;
+    line-height: 1.1;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.column {
+    font-size: 18px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: 14px;
+}
+
+.sub-column {
+    margin-top: -18px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.title-retail {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.custom-hr {
+    height: 3px;
+}
+
+.link-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.link-list li {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.link-list li a {
+    text-decoration: none;
+}
+
+.link-list li a:hover {
+    text-decoration: underline;
+}
+
+.title-save {
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 56px;
+}
+
+.content-saving-1 {
+    height: 300px;
+    text-align: center;
+}
+
+.pricing-content {
+    font-size: 28px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-seri;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.link {
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.ti-angle-right {
+    font-size: 12px;
+}
+
+.content-saving-2 {
+    text-align: center;
+}
+
+.sub-content {
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-seri;
+    font-size: 20px;
+}
+
+.content-wrapper {
+    position: absolute;
+    padding-top: 120px;
+}
+
+.way-to-buy {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.new-sound {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.link-info {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sub-headline {
+    font-size: 31px;
+    line-height: 1.381002381;
+    font-weight: 600;
+    letter-spacing: .011em;
+}
+
+.sub-p {
+    font-size: 30px;
+}
+
+.content-wr {
+    position: absolute;
+    margin-left: 110px;
+    text-align: center;
+}
+
+.new-s {
+    font-size: 38px;
+    color:#FFf;
+}
+
+.apple-one {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 28px;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    letter-spacing: .007em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.content-apple-tv {
+    padding-top: 10px;
+    font-size: 28px;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: #fff;
+}
+
+/* .img-list {
+    width: 238px;
+    height: 135px;
+    margin: 0 6px 6px;;
+} */
+
+.slide-wrapper-1 .img-list-1 {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    font-size: 0;
+    overflow-x: auto; /* Đã sửa từ 'auto' thành 'hidden' */
+    white-space: nowrap; /* Ngăn các hình ảnh xuống dòng khi cuộn */
+    animation: scroll 30s linear infinite; /* Sử dụng animation với keyframes 'scroll' */
+}
+
+.img-list-1 img {
+    border-radius: 20px;
+}
+
+.slide-wrapper-1 .img-list-1::-webkit-scrollbar {
+    display: none;
+}
+
+.slide-wrapper-1 .img-list-1  .image-item {
+    width: 238px;
+    height: 135px;
+    object-fit: cover;
+}
+
+.slide-wrapper-2 .img-list-2 {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    font-size: 0;
+    overflow-x: auto; /* Đã sửa từ 'auto' thành 'hidden' */
+    white-space: nowrap; /* Ngăn các hình ảnh xuống dòng khi cuộn */
+    animation: scroll 30s linear infinite; /* Sử dụng animation với keyframes 'scroll' */
+}
+
+.img-list-2 img {
+    border-radius: 20px;
+}
+
+
+.slide-wrapper-2 .img-list-2::-webkit-scrollbar {
+    display: none;
+}
+
+.slide-wrapper-2 .img-list-2  .image-item {
+    width: 238px;
+    height: 135px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.carousel-item .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Đảm bảo slide có chiều cao đủ để can giữa */
+}
+
+.carousel-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Hiệu ứng shadow khi hover */
+}
+
+.author-name {
+    font-size: 16px;
+    color: #fff;
+    width: 300px;
+    height: 60px;
+    margin: 0 auto; /* Can giữa theo chiều ngang */
+    text-align: center; /* Căn giữa nội dung bên trong */
+    border-radius: 0 0 10px 10px;
+}
+
+.col-md-6 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 100%; /* Đảm bảo cùng chiều cao với cha (row) */
+}
+
+.content-apple-arcade {
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.Arcade-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.tit-personality {
+    font-size: 36px;
+    line-height: 1.11119;
+    font-weight: 600;
+    margin-top: 140px;
+    letter-spacing: 0.006em;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+li.foot-note p:first-child::before {
+    content: none;
+}
+
+
+.note {
+    font-size: 16px;
+    line-height: 1.33337;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+
+.foot-note p {
+    color: #6e6e73;
+}
+
+.link-note {
+    color: #424245;
+}
+
+.note ol {
+    font-size: 16px;
+    line-height: 1.33337;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #6e6e73;
+}
+
+.note ol a {
+    color: #424245;
+}
+
+.icon-ip {
+    width: 14px;
+    height: 72px;
+    background-size: 14px 72px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/ac-footer/breadcrumbs/apple/icon_large.svg);
+    height: 18px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    color: transparent;
+    background-position-y: -36px;
+}
+
+.buy li a {
+    text-decoration: none;
+    color: #424245;
+}
+
+.buy li a:hover {
+    text-decoration: underline;
+}
+
+.buy li {
+    margin-left: -30px;
+}
+
+.country a {
+    text-decoration: none;
+}
+
+.country a:hover {
+    text-decoration: underline;
+}
+
+.support {
+    margin-top: 10px;
+}
+
+.support li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.support li a {
+    text-decoration: none;
+    color: #6e6e73;
+}
+
+.support li:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

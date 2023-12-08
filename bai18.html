@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thuoc tinh background-image</title>
+        <meta charset="utf-8">
+        <style>
+            html , body {
+                margin: 0;
+            }
+
+            .header {
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(0 , rgba(123 , 123 , 0 , 0.5) , rgba(0 , 0 , 123, 0.5)),
+                url(https://tse4.mm.bing.net/th?id=OIP.DJmqgt9j88Gy7tOdxEQFrgHaFu&pid=Api&P=0);
+                /* background-repeat: no-repeat;
+                background-size: 500px; */
+                /* background-image: linear-gradient(0, #444, #ccc); */
+                /* nếu bỏ thuộc tính độ thì góc quay mặc đinh sẽ là 180deg */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="header"></div>
+        <p>Thuộc tính background-image dùng để thiết lập hình ảnh nền 
+            để làm hình nền cho phần tử <br/>
+            Có thể dùng nhiều hình ảnh làm ảnh nền và ảnh nào được link 
+            thì sẽ hiển thị lên trên cùng <br/>
+            Việc dùng background-image: repeat có thể ghép với nhau tạo ra một hình nền mang
+            tính chất lặp lại tạo thành một hình nền đẹp
+        </p>
+    </body>
+</html>

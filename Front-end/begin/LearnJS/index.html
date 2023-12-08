@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tong 2 so nhap tu ban phim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tinh tong hai so nhap tu ban phim</h1>
+    <input type="text" id="so1" value=""> so a 
+    <input type="text" id="so2" value=""> so b 
+    <div class="hienthi"></div>
+    <input type="button" id="" onclick="sum()" value="Tinh Tong">
+
+
+    <script>
+        function sum () {
+            var a = document.getElementById("so1").value;
+            var b = document.getElementById("so2").value;
+            a = Number(a);
+            b = Number(b);
+            var sum = parseInt(a+b);
+            document.getElementById('hienthi').innerHTML=sum;
+        }
+    </script>
+</body>
+</html>

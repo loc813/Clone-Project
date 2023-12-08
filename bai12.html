@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pseudo classes</title>
+        <meta charset="utf-8">
+
+        <style>
+            .box {
+                width: 50%;
+                height: 50px;
+                background-color: rgb(100, 50, 79);
+            }
+
+            .box:active {
+                background-color: aqua;
+            }
+
+            h1:hover {
+                color: red;
+            }
+
+            li:first-child {
+                color:rgb(100, 50, 79)
+            }
+
+            li:last-child {
+                color: #444;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box"></div>
+
+        <h1>Pseudo classes</h1>
+        <ul>
+            <li>:root</li> <!-- Tham chieu den phan tu goc trong file HTML-->
+            <li>:hover</li> <!--Dc kich hoat khi di con cho chuot vao phan da select-->
+            <li>:active</li> <!--Dc kich hoat thuoc tinh khi click chuot vao phan tu da select-->
+            <li>:first-child </li> <!-- Dung de select den the dau tien-->
+            <li>:last-child</li> <!-- Dung de select den the cuoi cung-->
+        </ul>
+        
+
+    </body>
+</html>

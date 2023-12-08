@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.khoi1 {
+    border: double;
+    width: 200px;
+    height: 140px;
+    margin-top: 14px;
+}
+
+#src {
+    margin-top: 5px;
+}

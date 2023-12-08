@@ -1,0 +1,8 @@
+:root {
+    --text-color: brown;
+    
+}
+
+h1 {
+    color: var(--text-color);
+}

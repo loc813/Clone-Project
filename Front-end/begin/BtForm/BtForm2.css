@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+html {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.fi {
+    width: 500px;
+    height: 300px;
+}
+
+.p1 {
+    padding-top: 14px;
+
+}
+
+.p2 {
+    padding-top: 14px;
+}
+
+.i2 {
+     margin-left: 10px;
+     border: 2px solid #9FB8CF;
+}
+
+.i1 {
+    margin-top: 14px;
+    margin-left: 86px;
+    width: 300px;
+    height: 150px;
+    border: 2px solid #9FB8CF;
+}
+
+.div1 {
+    margin-top: 14px;
+}
+
+.b1 {
+    border-radius: 2px solid black;
+    width: 50px;
+    height: 20px;
+}
+
+.b1:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.b2 {
+    border-radius: 2px solid black;
+    width: 60px;
+    height: 20px;
+}
+
+.b2:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.mess {
+    margin-left: 89px;
+    margin-top: 5px;
+}
